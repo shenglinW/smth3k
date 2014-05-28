@@ -110,8 +110,6 @@ public class ListViewCommentAdapter extends BaseAdapter {
         if (StringUtility.isNotEmpty(post.getFloor()) && "楼主".equals(post.getFloor())) {
             listItemView.title.setText(post.getTitle());
             listItemView.title.setVisibility(View.VISIBLE);
-
-
         } else {
             listItemView.title.setVisibility(View.GONE);
         }

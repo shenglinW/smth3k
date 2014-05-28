@@ -188,7 +188,7 @@ public class SubjectDetail extends BaseActivity {
 
                     //显示评论数
                     if (subject.getTotalPageNo() > 1) {
-                        mHeadTitle.setText("帖子正文" + subject.getCurrentPageNo() + "/" + subject.getTotalPageNo());
+                        mHeadTitle.setText("帖子正文 " + subject.getCurrentPageNo() + "/" + subject.getTotalPageNo());
                     }
 
 
