@@ -1,4 +1,4 @@
-package com.jimidigi.smth3k.widget;
+﻿package com.jimidigi.smth3k.widget;
 
 import android.content.Context;
 import android.util.AttributeSet;

@@ -1,4 +1,4 @@
-package com.jimidigi.smth3k.ui;
+﻿package com.jimidigi.smth3k.ui;
 
 import android.app.Notification;
 import android.app.NotificationManager;

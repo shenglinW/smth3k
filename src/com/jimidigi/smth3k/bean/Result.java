@@ -1,4 +1,4 @@
-package com.jimidigi.smth3k.bean;
+﻿package com.jimidigi.smth3k.bean;
 
 import com.jimidigi.smth3k.common.StringUtility;
 import org.jsoup.Jsoup;

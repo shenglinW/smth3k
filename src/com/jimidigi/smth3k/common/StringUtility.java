@@ -1,4 +1,4 @@
-package com.jimidigi.smth3k.common;
+﻿package com.jimidigi.smth3k.common;
 
 
 import org.jsoup.select.Elements;

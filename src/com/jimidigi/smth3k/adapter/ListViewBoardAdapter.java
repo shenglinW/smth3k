@@ -1,4 +1,4 @@
-package com.jimidigi.smth3k.adapter;
+﻿package com.jimidigi.smth3k.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;

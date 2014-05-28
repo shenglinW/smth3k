@@ -1,4 +1,4 @@
-package com.jimidigi.smth3k.common;
+﻿package com.jimidigi.smth3k.common;
 
 import android.util.Log;
 import com.jimidigi.smth3k.bean.Post;

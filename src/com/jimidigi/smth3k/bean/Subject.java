@@ -1,4 +1,4 @@
-package com.jimidigi.smth3k.bean;
+﻿package com.jimidigi.smth3k.bean;
 
 import java.util.ArrayList;
 import java.util.Date;

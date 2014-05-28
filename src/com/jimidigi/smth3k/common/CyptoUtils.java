@@ -1,4 +1,4 @@
-package com.jimidigi.smth3k.common;
+﻿package com.jimidigi.smth3k.common;
 
 import javax.crypto.Cipher;
 import javax.crypto.SecretKeyFactory;

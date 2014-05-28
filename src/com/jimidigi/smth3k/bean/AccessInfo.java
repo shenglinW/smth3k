@@ -1,4 +1,4 @@
-package com.jimidigi.smth3k.bean;
+﻿package com.jimidigi.smth3k.bean;
 
 /**
  * 微博认证信息类：OAuth认证返回的数据集合

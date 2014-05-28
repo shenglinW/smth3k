@@ -25,3 +25,5 @@ proguard/
 .idea/
 
 *.iml
+.project
+.settings/org.eclipse.jdt.core.prefs

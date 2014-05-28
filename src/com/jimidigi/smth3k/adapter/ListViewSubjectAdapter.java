@@ -1,4 +1,4 @@
-package com.jimidigi.smth3k.adapter;
+﻿package com.jimidigi.smth3k.adapter;
 
 import android.app.Application;
 import android.content.Context;

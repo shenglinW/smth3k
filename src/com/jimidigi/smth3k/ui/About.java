@@ -1,4 +1,4 @@
-package com.jimidigi.smth3k.ui;
+﻿package com.jimidigi.smth3k.ui;
 
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager.NameNotFoundException;
