@@ -14,8 +14,8 @@ import com.jimidigi.smth3k.common.BitmapManager;
 import com.jimidigi.smth3k.common.DateUtils;
 import com.jimidigi.smth3k.common.StringUtility;
 import com.jimidigi.smth3k.widget.LinkView;
-import net.youmi.android.diy.banner.DiyAdSize;
-import net.youmi.android.diy.banner.DiyBanner;
+//import net.youmi.android.diy.banner.DiyAdSize;
+//import net.youmi.android.diy.banner.DiyBanner;
 
 import java.util.List;
 
@@ -123,7 +123,8 @@ public class ListViewCommentAdapter extends BaseAdapter {
 
 
         listItemView.ad = (RelativeLayout) convertView.findViewById(R.id.AdLayout);
-
+/*
+ * NO AD
         AppContext ac = (AppContext) context.getApplicationContext();
         if (position == 3 && ac.isLoadAds()) {
             listItemView.ad.setVisibility(View.VISIBLE);
@@ -132,7 +133,9 @@ public class ListViewCommentAdapter extends BaseAdapter {
             //将积分Banner加入到布局中
             listItemView.ad.addView(banner);
 
-        } else {
+        } else
+*/
+        {
             listItemView.ad.setVisibility(View.GONE);
         }
 

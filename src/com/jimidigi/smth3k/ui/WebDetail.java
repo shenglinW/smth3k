@@ -11,8 +11,8 @@ import com.jimidigi.smth3k.AppConfig;
 import com.jimidigi.smth3k.R;
 import com.jimidigi.smth3k.common.StringUtility;
 import com.jimidigi.smth3k.common.UIHelper;
-import net.youmi.android.banner.AdSize;
-import net.youmi.android.banner.AdView;
+//import net.youmi.android.banner.AdSize;
+//import net.youmi.android.banner.AdView;
 
 /**
  * 新闻详情
@@ -67,12 +67,13 @@ public class WebDetail extends BaseActivity {
 
 
     private void ads() {
-        //实例化广告条
-        AdView adView = new AdView(this, AdSize.SIZE_320x50);
-        //获取要嵌入广告条的布局
-        LinearLayout adLayout=(LinearLayout)findViewById(R.id.adLayout);
-        //将广告条加入到布局中
-        adLayout.addView(adView);
+//    	No Ads
+//        //实例化广告条
+//        AdView adView = new AdView(this, AdSize.SIZE_320x50);
+//        //获取要嵌入广告条的布局
+//        LinearLayout adLayout=(LinearLayout)findViewById(R.id.adLayout);
+//        //将广告条加入到布局中
+//        adLayout.addView(adView);
     }
 
     //初始化视图控件

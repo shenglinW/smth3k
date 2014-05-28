@@ -48,7 +48,7 @@ import com.jimidigi.smth3k.widget.ScrollLayout;
 import com.umeng.analytics.MobclickAgent;
 import com.umeng.update.UmengUpdateAgent;
 
-import net.youmi.android.AdManager;
+//import net.youmi.android.AdManager;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -221,8 +221,8 @@ public class Main extends BaseActivity {
 //            });
         }
 
-
-        AdManager.getInstance(this).init("14ab017831bb686c", "6789f4956be67a6e", false);
+// No Ads
+//        AdManager.getInstance(this).init("14ab017831bb686c", "6789f4956be67a6e", false);
 //        OffersManager.getInstance(this).onAppLaunch();
 
         //启动轮询通知信息

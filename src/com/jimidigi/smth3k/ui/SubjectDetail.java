@@ -21,8 +21,8 @@ import com.jimidigi.smth3k.bean.Subject;
 import com.jimidigi.smth3k.common.StringUtility;
 import com.jimidigi.smth3k.common.UIHelper;
 import com.jimidigi.smth3k.widget.PullToRefreshListView;
-import net.youmi.android.diy.banner.DiyAdSize;
-import net.youmi.android.diy.banner.DiyBanner;
+//import net.youmi.android.diy.banner.DiyAdSize;
+//import net.youmi.android.diy.banner.DiyBanner;
 
 import java.util.ArrayList;
 import java.util.Date;

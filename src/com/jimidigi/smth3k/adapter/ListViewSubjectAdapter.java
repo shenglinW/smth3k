@@ -13,8 +13,8 @@ import com.jimidigi.smth3k.bean.Subject;
 import com.jimidigi.smth3k.common.DateUtils;
 import com.jimidigi.smth3k.common.StringUtility;
 import com.jimidigi.smth3k.common.UIHelper;
-import net.youmi.android.diy.banner.DiyAdSize;
-import net.youmi.android.diy.banner.DiyBanner;
+//import net.youmi.android.diy.banner.DiyAdSize;
+//import net.youmi.android.diy.banner.DiyBanner;
 
 import java.util.List;
 
@@ -156,7 +156,7 @@ public class ListViewSubjectAdapter extends BaseAdapter {
             sub.setBackgroundColor(Color.parseColor("#eeeeee"));
         }
         listItemView.ad = (RelativeLayout) convertView.findViewById(R.id.AdLayout);
-
+/* No AD
         AppContext ac = (AppContext) context.getApplicationContext();
         if (position == 3 && ac.isLoadAds()) {
 
@@ -166,7 +166,9 @@ public class ListViewSubjectAdapter extends BaseAdapter {
             //将积分Banner加入到布局中
             listItemView.ad.addView(banner);
 
-        } else {
+        } else 
+*/
+        {
             listItemView.ad.setVisibility(View.GONE);
         }
         return convertView;
